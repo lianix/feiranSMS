@@ -25,7 +25,7 @@ SECRET_KEY = '+!8=hckjvph53fzz2gb@)a-&q=13iqu$d*kz$&ug+qu^=whqyp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['feiran.online', 'www.feiran.online', ]
 
 
 # Application definition
