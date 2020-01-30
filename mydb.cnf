@@ -1,0 +1,9 @@
+# my database connection
+
+[client]
+database = school
+user = root
+password = lmh123lmh
+HOST = 127.0.0.1
+port = 3306
+default-character-set = utf8

@@ -82,11 +82,9 @@ WSGI_APPLICATION = 'feiranSMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'school',
-        'USER': 'root',
-        'PASSWORD': '123',
-        'HOST': '127.0.0.1',
-        'port':'3306'
+        'OPTIONS': {
+            'read_default_file': '/etc/mydb.cnf',
+        }
     }
 }
 
