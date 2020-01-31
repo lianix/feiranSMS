@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 学员信息 </title>
+    </head>
+    <body>
+        {% if student %}
+            <ul>
+                <li> {{ student.name }} </li>
+                <li> {{ student.sex }} </li>
+                <li> {{ student.age }} </li>
+            </ul>
+        {% else %}
+            <p>没有找到学员</p>
+        {% endif %}
+    </body>
+</html>

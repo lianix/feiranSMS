@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 学员管理系统 </title>
+    </head>
+    <body>
+        {% if students %}
+            <ul>
+                {% for student in students %}
+                    <li> {{ student.name }} </li>
+                {% endfor %}
+            <ul>
+        {% else %}
+            <p>没有找到学员</p>
+        {% endif %}
+    </body>
+</html>
