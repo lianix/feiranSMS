@@ -31,6 +31,8 @@ ALLOWED_HOSTS = ['feiran.online', 'www.feiran.online', ]
 # Application definition
 
 INSTALLED_APPS = [
+    'school',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
